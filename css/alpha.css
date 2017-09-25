@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 body{
   background: url('../images/backgrounds/Wallpaper-Notebook-24.jpg');

@@ -21,3 +21,7 @@ form input:focus, textarea:focus{
 textarea{
   transition: 0s;
 }
+.neo{
+  transition: 0s;
+  width: 15%;
+}
