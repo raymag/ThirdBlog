@@ -1,9 +1,12 @@
+/*Está folha é dedicada ao formulário de contato*/
 body{
 background: url('../images/backgrounds/IMG_206046.jpg');
 }
-#content{
+#content{ /*Já que não há logos na página de contato...*/
   top: 7%;
 }
+
+/*Apenas cria um efeito de mudança de background e cor no formulário*/
 form input, textarea{
   border-radius: 8px;
   outline: none;

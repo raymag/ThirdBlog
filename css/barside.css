@@ -1,4 +1,5 @@
-.h-ico {
+/*Folha dedicado ao menu lateral*/
+.h-ico { /*Formato de ícones HOME*/
   margin: 4px;
   width: 100%;
   outline: 0;
@@ -9,20 +10,16 @@
 }
 .h-ico:active {
   margin: 4px;
-  width: 100%;
+  width: 92%;
 }
-.c-ico{
+.c-ico{/*Formato para Contato*/
   width: 92%;
 }
 .c-ico:hover {
   margin: 2px;
   width: 104%;
 }
-.h-ico:active {
-  width: 92%;
-}
-
-.p-ico{
+.p-ico{ /*Formato para Mais/Plus*/
   width: 85%;
 }
 .p-ico:hover{
@@ -31,7 +28,7 @@
 .p-ico:active{
   width: 85%;
 }
-.i-ico{
+.i-ico{ /*Formato para Info/Quem Somos?*/
   width: 80%;
 }
 .i-ico:hover{
@@ -40,11 +37,14 @@
 .i-ico:active{
   width: 80%;
 }
-#high-bar.high{
+#high-bar.high{ /*Formato do menu invisível em DESTAQUE*/
+  background: #b35a3b;
   background: linear-gradient(#b35a3b, #b8933b);
+  background: -webkit-linear-gradient(#b35a3b, #b8933b);
+  background: -moz-linear-gradient(#b35a3b, #b8933b);
 }
 
-#side-bar{
+#side-bar{ /*Estiliza o SideBar*/
   width: 3%;
   height: 100%;
   position: fixed;
@@ -53,7 +53,7 @@
   background: #420;
   box-shadow: 3px 0 3px #222;
 }
-#all div{
+#all div{ /*Estiliza os menus escondidos do side-bar*/
   position: fixed;
   display: none;
   border-radius: 0 10px 100px 0;
@@ -61,30 +61,30 @@
   color: white;
   text-shadow: 2px 2px 2px black;
   box-shadow: 1px 2px 5px #400;
+  background: #410;
   background: linear-gradient(to top, #410, #7f3f00);
+  background: -webkit-linear-gradient(to top, #410, #7f3f00);
+  background: -moz-linear-gradient(to top, #410, #7f3f00);
+  left:3%;
+
 }
-#home-bar{
+#home-bar{ /*Reajusta os menus suspensos*/
   top: 1%;
-  left: 3%;
   padding: 3px;
 }
 #chat-bar{
   top: 8%;
-  left: 3%;
   padding: 3px;
 }
 #plus-bar{
   top: 16%;
-  left: 3%;
   padding: 3px;
 }
 #info-bar{
   top: 22%;
-  left: 3%;
   padding: 3px;
 }
 #high-bar{
   top: 29%;
-  left: 3%;
   padding: 3px;
 }

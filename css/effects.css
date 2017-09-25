@@ -1,0 +1,27 @@
+/* Especifico para a estética de alguns elementos*/
+
+.underconstruction{ /*Define a placa Under Construction*/
+  position: absolute;
+  top: 20%;
+  left: 36%;
+  height: 30%;
+}
+.constructBG{
+  background: url('../images/backgrounds/mecha.jpg');
+  background-size: cover;
+}
+.plusBG{
+  background: url('../images/backgrounds/class.jpg');
+  background-size: cover;
+}
+.none{
+  display: none;
+}
+.datepost{
+  font-size: 8pt;
+  float: right;
+  color: #bbb;
+  padding: 1%;
+  background: #765;
+  border-radius: 5px;
+}
