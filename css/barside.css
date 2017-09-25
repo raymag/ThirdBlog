@@ -1,0 +1,90 @@
+.h-ico {
+  margin: 4px;
+  width: 100%;
+  outline: 0;
+}
+.h-ico:hover {
+  margin: 2px;
+  width: 116%;
+}
+.h-ico:active {
+  margin: 4px;
+  width: 100%;
+}
+.c-ico{
+  width: 92%;
+}
+.c-ico:hover {
+  margin: 2px;
+  width: 104%;
+}
+.h-ico:active {
+  width: 92%;
+}
+
+.p-ico{
+  width: 85%;
+}
+.p-ico:hover{
+  width: 92%;
+}
+.p-ico:active{
+  width: 85%;
+}
+.i-ico{
+  width: 80%;
+}
+.i-ico:hover{
+  width: 90%;
+}
+.i-ico:active{
+  width: 80%;
+}
+#high-bar.high{
+  background: linear-gradient(#b35a3b, #b8933b);
+}
+
+#side-bar{
+  width: 3%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #420;
+  box-shadow: 3px 0 3px #222;
+}
+#all div{
+  position: fixed;
+  display: none;
+  border-radius: 0 10px 100px 0;
+  padding-right: 5%;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 1px 2px 5px #400;
+  background: linear-gradient(to top, #410, #7f3f00);
+}
+#home-bar{
+  top: 1%;
+  left: 3%;
+  padding: 3px;
+}
+#chat-bar{
+  top: 8%;
+  left: 3%;
+  padding: 3px;
+}
+#plus-bar{
+  top: 16%;
+  left: 3%;
+  padding: 3px;
+}
+#info-bar{
+  top: 22%;
+  left: 3%;
+  padding: 3px;
+}
+#high-bar{
+  top: 29%;
+  left: 3%;
+  padding: 3px;
+}

@@ -1,0 +1,25 @@
+#content{
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  background: linear-gradient(to left, #fefefe, #afafaf);
+  border-radius: 15px;
+  padding: 2%;
+  width: 30%;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 15pt;
+}
+#content img{
+  width: 55%;
+  float: left;
+  padding: 1%;
+  border-radius: 15px;
+}
+#content fieldset{
+  border-radius: 10%;
+  padding: 3%;
+}
+a{
+  text-decoration: none;
+}

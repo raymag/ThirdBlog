@@ -1,0 +1,23 @@
+body{
+background: url('../images/backgrounds/IMG_206046.jpg');
+}
+#content{
+  top: 7%;
+}
+form input, textarea{
+  border-radius: 8px;
+  outline: none;
+  transition: 1s;
+
+}
+form input, textarea{
+  background: white;
+  color: black;
+}
+form input:focus, textarea:focus{
+  background: black;
+  color: orange;
+}
+textarea{
+  transition: 0s;
+}
