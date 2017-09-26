@@ -25,3 +25,31 @@
   background: #765;
   border-radius: 5px;
 }
+.back button{
+  padding: 5px;
+  float:left;
+  background: #654;
+  background: linear-gradient(#654, #765);
+  background: -webkit-linear-gradient(#654, #765);
+  background: -moz-linear-gradient(#654, #765);
+  border-radius: 5px 10px;
+  outline: none;
+}
+.next button{
+  padding: 5px;
+  float: right;
+  background: #654;
+  background: linear-gradient(#654, #765);
+  background: -webkit-linear-gradient(#654, #765);
+  background: -moz-linear-gradient(#654, #765);
+  border-radius: 10px 5px;
+  outline: none;
+}
+.back button:hover{
+  background: #543;
+  color: #f44;
+}
+.next button:hover{
+  background: #543;
+  color: #f44;
+}
