@@ -14,6 +14,10 @@
   background: url('../images/backgrounds/class.jpg');
   background-size: cover;
 }
+.postBG{
+  background: url('../images/backgrounds/forest-patrol.jpg');
+  background-size: cover;
+}
 .none{
   display: none;
 }
@@ -52,4 +56,41 @@
 .next button:hover{
   background: #543;
   color: #f44;
+}
+.lpost{
+  background: none;
+  text-decoration: none;
+  padding: 0%;
+  padding-top: 0.1%;
+  border-radius: 5px;
+  color: #444;
+}
+.lpost:hover{  color: #944;
+}
+
+#posts{ /*Configura as configurações iniciais do ID content, que contém o conteúdo*/
+  margin: 7% auto;
+  background: (#fefefe); /*Caso o navegador não dê suporte ao gradient*/
+  background: linear-gradient(to left, #fefefe, #afafaf);
+  background: -webkit-linear-gradient(to left, #fefefe, #afafaf);
+  background: -moz-linear-gradient(to left, #fefefe, #afafaf);
+  border-radius: 15px;
+  padding: 2%;
+  width: 60%;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 15pt;
+}
+#posts img{ /*Configura as imagens dentro do content*/
+  width: 55%;
+  float: left;
+  padding: 1%;
+  border-radius: 15px;
+}
+#posts fieldset{ /*Estiliza o fieldset*/
+  border-radius: 10%;
+  padding: 3%;
+}
+#posts legend{
+  margin: auto;
 }
